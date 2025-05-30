@@ -129,6 +129,7 @@ section {
   scroll-margin-top: 1rem;
   animation: fadeIn 0.8s ease-out;
   width: 100%;
+  text-justify: auto;
 }
 
 /* Publication styles */

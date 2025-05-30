@@ -1,29 +1,20 @@
 {
   "publications": [
     {
-      "title": "[Paper Title 1]",
+      "title": "Minifinetuning: Low-Data Generation Domain Adaptation through Corrective Self-Distillation",
       "authors": [
-        "Author 1*",
-        "Author 2*",
-        "Author 3",
-        "Author 4",
-        "Author 5",
-        "Author 6",
-        "Author 7",
-        "Author 8",
-        "Author 9",
-        "Author 10",
-        "Author 11†",
-        "Author 12†"
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Jan Kautz",
+        "Pavlo Molchanov"
       ],
-      "venue": "Preprint (2025)",
-      "thumbnail": "images/thumbs/1.jpg",
+      "venue": "NVIDIA Technical Report (2025)",
+      "thumbnail": "images/thumbs/mft.png",
       "selected": 1,
       "award": "",
       "links": {
         "pdf": "#",
-        "code": "#",
-        "project": "#"
+        "project": "https://research.nvidia.com/labs/lpr/minifinetuning/"
       }
     },
     {
