@@ -1,6 +1,27 @@
 {
   "publications": [
     {
+      "title": "Small Language Models are the Future of Agentic AI",
+      "authors": [
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Shizhe Diao",
+        "Yonggan Fu",
+        "Xin Dong",
+        "Saurav Muralidharan",
+        "Yingyan Celine Lin",
+        "Pavlo Molchanov"
+      ],
+      "venue": "NVIDIA Position Paper (2025)",
+      "thumbnail": "images/thumbs/slm_agents2.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#",
+        "project": "https://research.nvidia.com/labs/lpr/slm-agents/"
+      }
+    },
+    {
       "title": "Minifinetuning: Low-Data Generation Domain Adaptation through Corrective Self-Distillation",
       "authors": [
         "Peter Belcak",
@@ -15,27 +36,6 @@
       "links": {
         "pdf": "#",
         "project": "https://research.nvidia.com/labs/lpr/minifinetuning/"
-      }
-    },
-    {
-      "title": "Small Language Models are the Future of Agentic AI",
-      "authors": [
-        "Peter Belcak",
-        "Greg Heinrich",
-        "Shizhe Diao",
-        "Yonggan Fu",
-        "Xin Dong",
-        "Saurav Muralidharan",
-        "Yingyan Celine Lin",
-        "Pavlo Molchanov"
-      ],
-      "venue": "NVIDIA Position Paper (2025)",
-      "thumbnail": "images/thumbs/slm_agents.png",
-      "selected": 1,
-      "award": "",
-      "links": {
-        "pdf": "#",
-        "project": "https://research.nvidia.com/labs/lpr/slm-agents/"
       }
     },
     {
