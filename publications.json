@@ -18,6 +18,27 @@
       }
     },
     {
+      "title": "Small Language Models are the Future of Agentic AI",
+      "authors": [
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Shizhe Diao",
+        "Yonggan Fu",
+        "Xin Dong",
+        "Saurav Muralidharan",
+        "Yingyan Celine Lin",
+        "Pavlo Molchanov"
+      ],
+      "venue": "NVIDIA Position Paper (2025)",
+      "thumbnail": "images/thumbs/slm_agents.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#",
+        "project": "https://research.nvidia.com/labs/lpr/slm-agents/"
+      }
+    },
+    {
       "title": "[Paper Title 2]",
       "authors": [
         "Author 1*",
