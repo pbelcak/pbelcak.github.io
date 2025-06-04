@@ -17,7 +17,7 @@
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "#",
+        "pdf": "https://arxiv.org/abs/2506.02153",
         "project": "https://research.nvidia.com/labs/lpr/slm-agents/"
       }
     },
@@ -58,7 +58,8 @@
       "selected": 0,
       "award": "",
       "links": {
-        "pdf": "#"
+        "pdf": "#",
+        "project": "#"
       }
     }
   ]
