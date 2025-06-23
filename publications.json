@@ -34,7 +34,7 @@
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "#",
+        "pdf": "https://arxiv.org/abs/2506.15702",
         "project": "https://research.nvidia.com/labs/lpr/minifinetuning/"
       }
     },
