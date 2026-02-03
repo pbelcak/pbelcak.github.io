@@ -22,6 +22,61 @@
       }
     },
     {
+      "title": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
+      "authors": [
+        "Hongjin Su",
+        "Shizhe Diao",
+        "Ximing Lu",
+        "Mingjie Liu",
+        "Jiacheng Xu",
+        "Xin Dong",
+        "Yonggan Fu",
+        "Peter Belcak",
+        "Hanrong Ye",
+        "Hongxu Yin",
+        "Yi Dong",
+        "Evelina Bakhturina",
+        "Tao Yu",
+        "Yejin Choi",
+        "Jan Kautz",
+        "Pavlo Molchanov"
+      ],
+      "venue": "arXiv preprint (2025)",
+      "thumbnail": "images/thumbs/toolorchestra.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2511.21689",
+        "project": "https://research.nvidia.com/labs/lpr/ToolOrchestra/"
+      }
+    },
+    {
+      "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+      "authors": [
+        "Shih-Yang Liu",
+        "Xin Dong",
+        "Ximing Lu",
+        "Shizhe Diao",
+        "Peter Belcak",
+        "Mingjie Liu",
+        "Min-Hung Chen",
+        "Hongxu Yin",
+        "Yu-Chiang Frank Wang",
+        "Kwang-Ting Cheng",
+        "Yejin Choi",
+        "Jan Kautz",
+        "Pavlo Molchanov"
+      ],
+      "venue": "NVIDIA Technical Report (2026)",
+      "thumbnail": "images/thumbs/gdpo.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2601.05242",
+        "project": "https://nvlabs.github.io/GDPO/"
+      }
+    },
+    {
       "title": "Minifinetuning: Low-Data Generation Domain Adaptation through Corrective Self-Distillation",
       "authors": [
         "Peter Belcak",
@@ -31,35 +86,11 @@
       ],
       "venue": "NVIDIA Technical Report (2025)",
       "thumbnail": "images/thumbs/mft.png",
-      "selected": 1,
+      "selected": 0,
       "award": "",
       "links": {
         "pdf": "https://arxiv.org/abs/2506.15702",
         "project": "https://research.nvidia.com/labs/lpr/minifinetuning/"
-      }
-    },
-    {
-      "title": "[Paper Title 2]",
-      "authors": [
-        "Author 1*",
-        "Author 2*",
-        "Author 3",
-        "Author 4",
-        "Author 5",
-        "Author 6",
-        "Author 7",
-        "Author 8",
-        "Author 9",
-        "Author 10",
-        "Author 11"
-      ],
-      "venue": "Preprint (2025)",
-      "thumbnail": "images/thumbs/2.jpg",
-      "selected": 0,
-      "award": "",
-      "links": {
-        "pdf": "#",
-        "project": "#"
       }
     }
   ]
