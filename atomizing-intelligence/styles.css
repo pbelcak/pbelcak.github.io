@@ -151,34 +151,12 @@ h1 span { color: var(--blue-deep); }
   margin: 0;
 }
 
-.signal { height: 10.5mm; margin-left: auto; position: relative; width: 36mm; }
-.scaling-curve { height: 10.5mm; position: relative; width: 36mm; }
-.scaling-curve span {
-  background: var(--blue);
-  border-radius: 999px;
-  height: .7mm;
-  position: absolute;
-  transform-origin: left center;
-}
-.scaling-curve span:nth-child(1) { bottom: 1mm; left: 0; transform: rotate(-2deg); width: 7mm; }
-.scaling-curve span:nth-child(2) { bottom: 1.2mm; left: 6.5mm; transform: rotate(-7deg); width: 7.5mm; }
-.scaling-curve span:nth-child(3) { bottom: 2mm; left: 13.5mm; transform: rotate(-15deg); width: 7mm; }
-.scaling-curve span:nth-child(4) { bottom: 3.7mm; left: 20mm; transform: rotate(-26deg); width: 6.5mm; }
-.scaling-curve span:nth-child(5) { bottom: 6.4mm; left: 25.8mm; transform: rotate(-43deg); width: 5.5mm; }
-.break-mark { height: 8mm; position: absolute; right: 1mm; top: .1mm; width: 8mm; }
-.break-mark::before,
-.break-mark::after {
-  background: var(--blue-deep);
-  border-radius: 999px;
-  content: "";
-  height: .9mm;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  width: 9mm;
-}
-.break-mark::before { transform: translate(-50%, -50%) rotate(45deg); }
-.break-mark::after { transform: translate(-50%, -50%) rotate(-45deg); }
+.signal { align-items: end; display: flex; gap: 2.3mm; height: 9mm; justify-content: flex-end; }
+.signal span { background: var(--blue); display: block; height: 1mm; width: 4mm; }
+.signal span:nth-child(2) { height: 2mm; }
+.signal span:nth-child(3) { height: 3.5mm; }
+.signal span:nth-child(4) { height: 6mm; }
+.signal span:nth-child(5) { background: var(--blue-deep); height: 9mm; }
 
 .section-title { align-items: center; display: grid; grid-template-columns: 8mm auto 1fr; gap: 2mm; }
 .section-title span { color: var(--blue-deep); font: 700 7px/1 var(--font-geist-mono), monospace; }
@@ -264,7 +242,7 @@ footer {
   border-top: 1.3px solid var(--ink);
   bottom: 6.5mm;
   display: flex;
-  font: 600 5.9px/1 var(--font-geist-mono), monospace;
+  font: 600 7px/1 var(--font-geist-mono), monospace;
   justify-content: space-between;
   left: 11mm;
   letter-spacing: .07em;
