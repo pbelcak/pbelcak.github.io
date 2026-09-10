@@ -28,35 +28,6 @@ body {
   padding: 28px 18px 56px;
 }
 
-.screen-controls {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto 14px;
-  width: min(210mm, calc(100vw - 36px));
-}
-
-.screen-controls p {
-  color: #4f5b64;
-  font-size: 12px;
-  margin: 0;
-}
-
-.screen-controls button {
-  background: #121a21;
-  border: 0;
-  border-radius: 999px;
-  color: white;
-  cursor: pointer;
-  font: 600 11px/1 var(--font-geist-sans), sans-serif;
-  letter-spacing: .04em;
-  padding: 10px 15px;
-}
-
-.screen-controls button:hover { background: var(--blue-deep); }
-.screen-controls button:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
-.screen-controls button:disabled { cursor: wait; opacity: .7; }
-
 .sheet {
   background:
     radial-gradient(circle at 94% 5%, rgba(154, 215, 245, .34) 0 1.2px, transparent 1.3px) 0 0 / 8px 8px,
@@ -255,9 +226,8 @@ footer {
 footer p { margin: 0; }
 footer span { color: var(--blue-deep); margin: 0 1mm; }
 
-@media screen and (max-width: 820px) {
+@media (max-width: 820px) {
   .site-shell { padding: 16px 0 40px; }
-  .screen-controls { padding: 0 14px; width: 100%; }
   .sheet { height: auto; min-height: 100vh; padding: 28px 22px 54px; width: 100%; }
   .evidence-grid { grid-template-columns: 1fr; }
   .ideas { border-bottom: 1px solid var(--line-strong); border-right: 0; padding-right: 0; }
@@ -267,7 +237,7 @@ footer span { color: var(--blue-deep); margin: 0 1mm; }
   footer { bottom: 20px; left: 22px; right: 22px; }
 }
 
-@media screen and (max-width: 560px) {
+@media (max-width: 560px) {
   .masthead { align-items: start; }
   h1 { font-size: 38px; }
   .document-meta { font-size: 6px; }
@@ -278,54 +248,11 @@ footer span { color: var(--blue-deep); margin: 0 1mm; }
   footer { align-items: flex-start; gap: 8px; flex-direction: column; position: static; margin-top: 24px; }
 }
 
-/* The print script renders the sheet at this fixed desktop-sized A4 layout. */
-.capture-render,
-.capture-render body {
-  background: white;
-  height: 297mm !important;
-  min-height: 297mm !important;
-  width: 210mm !important;
-}
-
-.capture-render .site-shell { min-height: 0; padding: 0; }
-.capture-render .screen-controls { display: none; }
-.capture-render .sheet {
-  box-shadow: none;
-  height: 297mm;
-  margin: 0;
-  min-height: 297mm;
-  padding: 9mm 11mm 7mm;
-  width: 210mm;
-}
-.capture-render .masthead { align-items: flex-end; }
-.capture-render h1 { font-size: 47px; }
-.capture-render .document-meta { font-size: 7px; }
-.capture-render .tldr { gap: 0; grid-template-columns: 21mm 1fr 39mm; padding: 3mm 4mm; }
-.capture-render .signal { display: flex; }
-.capture-render .evidence-grid { grid-template-columns: 63mm 1fr; }
-.capture-render .ideas { border-bottom: 0; border-right: 1px solid var(--line-strong); padding-right: 4mm; }
-.capture-render .results { padding-left: 4mm; }
-.capture-render .product-grid,
-.capture-render .research-grid { margin-left: 10mm; }
-.capture-render .product-grid { grid-template-columns: repeat(4, 1fr); }
-.capture-render .research-grid { gap: 3mm; grid-template-columns: repeat(3, 1fr); }
-.capture-render footer {
-  align-items: center;
-  bottom: 6.5mm;
-  flex-direction: row;
-  gap: 0;
-  left: 11mm;
-  margin-top: 0;
-  position: absolute;
-  right: 11mm;
-}
-
 @page { size: A4 portrait; margin: 0; }
 
 @media print {
   html, body { background: white; height: 297mm; width: 210mm; }
   .site-shell { padding: 0; }
-  .screen-controls { display: none; }
   .sheet { box-shadow: none; height: 297mm; margin: 0; min-height: 297mm; width: 210mm; }
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }
