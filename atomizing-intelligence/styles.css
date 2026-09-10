@@ -248,24 +248,35 @@ footer span { color: var(--blue-deep); margin: 0 1mm; }
   footer { align-items: flex-start; gap: 8px; flex-direction: column; position: static; margin-top: 24px; }
 }
 
-@page { size: A4 portrait; margin: 0; }
+@page { size: A4 portrait; margin: 10mm; }
 
 @media print {
   html, body {
     background: white;
-    height: 297mm;
+    height: 277mm;
     margin: 0;
-    min-height: 297mm;
+    min-height: 277mm;
     overflow: hidden;
-    width: 210mm;
+    width: 190mm;
   }
-  .site-shell { height: 297mm; min-height: 297mm; padding: 0; width: 210mm; }
+  .site-shell {
+    height: 277mm;
+    min-height: 277mm;
+    padding: 0;
+    position: relative;
+    width: 190mm;
+  }
   .sheet {
     box-shadow: none;
     height: 297mm;
+    left: 0;
     margin: 0;
     min-height: 297mm;
     padding: 9mm 11mm 7mm;
+    position: absolute;
+    top: 4.1429mm;
+    transform: scale(.9047619);
+    transform-origin: top left;
     width: 210mm;
   }
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
