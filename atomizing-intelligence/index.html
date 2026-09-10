@@ -28,7 +28,7 @@
     <main class="site-shell">
       <div class="screen-controls" aria-label="Document controls">
         <p><strong>Atomizing Intelligence</strong> · A4 one-pager preview</p>
-        <button type="button" onclick="window.print()">Print / Save PDF</button>
+        <button id="print-sheet" type="button">Print / Save PDF</button>
       </div>
       <article
         class="sheet"
@@ -362,5 +362,11 @@
         </footer>
       </article>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.13/dist/html-to-image.js"
+      integrity="sha384-Tha/42qsYmpYmQ07pX+nJzkKumO0BzKJxK/uzVc7xyBQxVCUgQBhQIG8L7vXK+9C"
+      crossorigin="anonymous"
+    ></script>
+    <script src="print.js"></script>
   </body>
 </html>
