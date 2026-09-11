@@ -279,5 +279,22 @@ footer span { color: var(--blue-deep); margin: 0 1mm; }
     transform-origin: top left;
     width: 210mm;
   }
+  .document-meta { font-size: 7.5px; }
+  .tldr > p { font-size: 8.5px; }
+  .tldr h2 { font-size: 20.5px; }
+  .section-title span { font-size: 7.5px; }
+  .section-title h2 { font-size: 10.2px; }
+  .idea-list span { font-size: 7.4px; }
+  .idea-list p { font-size: 8.4px; }
+  .result-heading h3 { font-size: 12.6px; }
+  .result-heading span { font-size: 6.4px; }
+  table { font-size: 8.2px; }
+  th { font-size: 6.2px; }
+  .product-number { font-size: 8px; }
+  .product-item h3 { font-size: 8.3px; }
+  .product-item p { font-size: 7.2px; }
+  .research h3 { font-size: 8.2px; }
+  .research p { font-size: 7.2px; }
+  footer { font-size: 7.5px; }
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }
