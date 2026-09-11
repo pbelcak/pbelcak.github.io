@@ -291,10 +291,10 @@ footer span { color: var(--blue-deep); margin: 0 1mm; }
   table { font-size: 8.2px; }
   th { font-size: 6.2px; }
   .product-number { font-size: 8px; }
-  .product-item h3 { font-size: 8.3px; }
-  .product-item p { font-size: 7.2px; }
-  .research h3 { font-size: 8.2px; }
-  .research p { font-size: 7.2px; }
+  .product-item h3,
+  .product-item p,
+  .research h3,
+  .research p { font-size: 8.4px; }
   footer { font-size: 7.5px; }
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }
