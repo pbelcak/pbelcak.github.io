@@ -248,33 +248,33 @@ footer span { color: var(--blue-deep); margin: 0 1mm; }
   footer { align-items: flex-start; gap: 8px; flex-direction: column; position: static; margin-top: 24px; }
 }
 
-@page { size: A4 portrait; margin: 10mm; }
+@page { size: A4 portrait; margin: 0; }
 
 @media print {
   html, body {
     background: white;
-    height: 277mm;
+    height: 297mm;
     margin: 0;
-    min-height: 277mm;
+    min-height: 297mm;
     overflow: hidden;
-    width: 190mm;
+    width: 210mm;
   }
   .site-shell {
-    height: 277mm;
-    min-height: 277mm;
+    height: 297mm;
+    min-height: 297mm;
     padding: 0;
     position: relative;
-    width: 190mm;
+    width: 210mm;
   }
   .sheet {
     box-shadow: none;
     height: 297mm;
-    left: 0;
+    left: 10mm;
     margin: 0;
     min-height: 297mm;
     padding: 9mm 11mm 7mm;
     position: absolute;
-    top: 4.1429mm;
+    top: 14.1429mm;
     transform: scale(.9047619);
     transform-origin: top left;
     width: 210mm;
